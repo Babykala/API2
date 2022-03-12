@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukkural</title>
+</head>
+<style>
+    #number {
+        margin: 10px;
+    }
+
+    .main {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .content {
+        color: blueviolet
+    }
+</style>
+
+<body>
+    <h1 style="text-align: center;">திருக்குறள்</h1>
+    <div>
+        <span style="display: block;text-align: center;"><img src="thiru.jpg" alt="" width="350"
+                height="300"></span><br>
+        <span style="line-height:2;justify-content: center;">தெய்வப்புலவர் என்று போற்றப்படும் திருவள்ளுவரால்
+            இயற்றப்பட்டது திருக்குறள். இதில் மொத்தம் 133 அதிகாரங்கள்
+            உள்ளன. ஒரு அதிகாரத்திற்கு பத்து குறள் வீதம் மொத்தம் 1330 திருக்குறள் உள்ளன. இவை அனைத்தும் அறத்துப்பால்,
+            பொருட்பால், காமத்துப்பால் என்ற மூன்று பிரிவுகளுக்குள் வருகின்றன.</span>
+
+    </div>
+    <div class="main">
+        <div id="but"><span class="bold">குறள் எண்:</span><input type="text" name="" id="number"><button>Submit</button>
+        </div><br>
+        <div><span class="bold">பால்:</span><span class="content" id="secTam"></span></div><br>
+        <div><span class="bold">அதிகாரம்/Chapter: </span> <span class="content" id="chapTam"></span></div><br>
+        <div><span class="bold">குறள்:</span><span class="content" id="line1"></span><br><span class="content"
+                id="line2" style="padding-left:55px;"></span></div><br>
+                <div id="eng"></div><br>
+        <div><span class="bold">விளக்கம்:</span><span class="content" id="exp"></span></div><br>
+        <div id="engExp"></div>
+    </div>
+
+
+</body>
+<script src="thiru.js"></script>
+
+</html>
